@@ -4,7 +4,9 @@ $(document).ready(function() {
 
     $(".person").text(personInput);
 
-    $("#letter").show();
+    $(".form-group").fadeToggle();
+
+    $("#letter").fadeToggle();
 
     event.preventDefault();
   });
